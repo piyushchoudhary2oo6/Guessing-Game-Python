@@ -33,9 +33,9 @@ while attempts>=0:
     attempts-=1
     print("Attempts left", attempts)
     
-if attempts==0:
-    print("Game lost😥.","Have better luck next time.")
-    print("The random no. is: ", r)
+    if attempts==0:
+        print("Game lost😥.","Have better luck next time.")
+        print("The random no. is: ", r)
 print("<----------------Scoreboard---------------->")
 print(Name ,"Scored ",score,"points.")
 print("--- Thanks for playing Random number guessing game --- ")
